@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Front Page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media = "screen and (max-width: 800px)" href="style2.css">
+
+<body id = "body">
+	<nav class = "navBar">
+		<ul>
+			<a href="#home" class = "navIcon"> Home </a>
+			<a href="#about" class = "navIcon"> About me </a>
+			<a href="#mylinks" class = "navIcon"> My Links </a>
+		</ul>
+	</nav>
+	<section id = "home" >
+		<div id ="main">
+			<h1 class = "heading"> Hello, <br>I'm Edward </h1>
+			<h1 class="main2Txt">aspiring Ui/Ux and frontend developer undergoing an internship with Zuri, HNG & i4g </h1>
+			<button class="btn" type = "submit" onclick=" window.open('resume.docx')" > Download My Resume</button>	
+		</div>
+	</section>
+	<section id="about">
+		<h1 class = "headings"> About Me</h1>
+		<div id="pic">
+			<img src="profile.jpg" onmousemove="this.src = 'drake.jpg';" onmouseout="this.src = 'profile.jpg';" alt="">
+			<div id = "intro">
+				<p> My name is Oluwademilade Akapo, aspiring web developer. I'm in my 4th year of university and just recently programs to CS. I started off with SE, learning:  C, Java, C++, Scheme, Python and Prolog. This gave me good experience in functional and declerative programing as well as Object Oreinted Programming. I just recently began my journey into coding thus i don't have much to put in my CV, but i'm really passionate about improving my skills and becoming a better frontend dev.</p>
+				<h2> My Skills</h2>
+				<p> <br> Data structures and Algorithms <br> Html, CSS Javascript <br>Object oriented programming <br> Problem Solving <br> Critical thinking <br> Team work </p>		
+			</div>
+		</div>
+		<div id="contact">
+			<h1 class="headings">My Links</h1>
+			<div id="mylinks">
+					<ul>
+						<a href="https://github.com/edwardakapo" class = "links" > <img alt="Github" src="GitHub.jpg" width="100" height="100"> </a>
+						
+						<a href="https://internship.zuri.team/" class = "links"> <img alt="Github" src="Zuri.jpg" width="100" height="100"> </a>
+						<a href="https://ingressive.org/" class = "links"> <img alt="Github" src="Ingressive.jpg" width="100" height="100"> </a>
+						<a href="https://hng.tech/" class = "links"> <img alt="Github" src="HNG.jpg" width="100" height="100"> </a>
+
+
+					</ul>
+				</div>
+		</div>
+	</section>
+</body>
+</html>

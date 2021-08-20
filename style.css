@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  background-color: #080708;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* NavBar*/
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navBar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px;
+}
+
+.navIcon {
+  font-family: century;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 8px 30px;
+  transition: all 1s ease;
+}
+
+.navIcon:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 2px white;
+}
+
+/* home section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Georgia;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("07.jpg") no-repeat center center/cover;
+  background-color: black;
+  height: 800px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#main {
+  margin: 40px 0;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+#main .heading {
+  font-size: 2.7rem;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+#main .main2Txt {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+#main .btn {
+  /* position: absolute; */
+  padding: 20px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  transition: 1s ease;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 70px white;
+  font-weight: bolder;
+}
+
+/* About & contact section */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  color: white;
+}
+#pic {
+  display: flex;
+}
+#pic img {
+  width: 300px;
+  height: 300px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+  margin: 20px 50px;
+}
+
+#intro p {
+  margin-bottom: 20px;
+}
+
+#about .headings {
+  text-align: center;
+  padding: 35px 30px;
+  margin-bottom: 50px;
+  font-size: 2.1rem;
+}
+
+#mylinks {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+#mylinks .links {
+  padding: 100px 100px;
+  margin-bottom: 10px;
+}

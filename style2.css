@@ -1,0 +1,19 @@
+/* navbar section */
+
+.navIcon {
+  font-size: 1.1rem;
+  padding: 8px 30px;
+}
+/* about section */
+#about {
+  margin-left: 0px;
+}
+#pic {
+  flex-direction: column;
+  align-items: center;
+}
+
+#pic img {
+  width: 200px;
+  height: 250px;
+}
